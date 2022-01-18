@@ -453,17 +453,17 @@ const Home = (props: HomeProps) => {
                             <ConnectButton>Connect Wallet</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
-                <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
+                {/* <ShimmerTitle>MINT IS LIVE !</ShimmerTitle> */}
                 <br/>
 
 
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Solmeme's Army NFT</h2>
                             <br/>
                             <div><Price label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " SOL") : (price + " SOL")}/><Image
-                                src="cool-cats.gif"
+                                src="solNFT.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) &&
@@ -533,7 +533,7 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Welcome </GoldTitle></LogoAligner>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -541,7 +541,7 @@ const Home = (props: HomeProps) => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                         </Des>
-                        <Des elevation={2}>
+ {/*                        <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
@@ -558,7 +558,7 @@ const Home = (props: HomeProps) => {
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
-                        </Des>
+                        </Des> */}
                     </DesContainer>
                 </MintContainer>
             </MainContainer>
