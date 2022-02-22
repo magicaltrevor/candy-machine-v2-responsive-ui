@@ -11,6 +11,14 @@ body{
   background-color:var(--main-background-color);
 }
 
+a:link {
+  color:#fbff00
+}
+
+a:visited {
+  color:#fbff00
+}
+
 h2, p{
   color: var(--main-text-color);
 }

@@ -440,12 +440,12 @@ const Home = (props: HomeProps) => {
                 <WalletContainer>
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt="" src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="http://www.solmemes.com" target="_blank" rel="noopener noreferrer">Home</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
+{/*                         <li><a href="http://localhost:3000/" target="_blank"
                                rel="noopener noreferrer">Menu 2</a></li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                               rel="noopener noreferrer">Menu 3</a></li> */}
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -533,32 +533,31 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Welcome </GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Welcome to the Solmemes Army mint page </GoldTitle></LogoAligner>
+                            <p>After transferring Solana cryptocurrency to your crypto wallet,</p>
+                            <p>simply add the wallet extension to a supporting web browser (*see our suggestions below).</p>
+                            <p>Next, press the Connect Wallet button on our mint page and you're all set!</p>
                         </Des>
- {/*                        <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                        <Des elevation={2}>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>What is Solana?</GoldTitle></LogoAligner>
+                            <p>For more information on how to buy Solana cryptocurrency</p>
+                            <p>and setting up your Phantom wallet, visit <a href="www.solmemes.com" target="_blank">Solmemes.com</a></p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                        </Des> */}
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Suggested wallet/browser combinations</GoldTitle></LogoAligner>
+                            <p>Phantom Wallet - Mozilla Firefox browser</p>
+                            <p>Phantom Wallet - Brave browser</p>
+                            <p>Phantom Wallet - Chrome browser</p>
+                        </Des>
+                        <Des elevation={2}>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Links!</GoldTitle></LogoAligner>
+                            <p><a href="https://phantom.app/" target="_blank">Phantom Wallet Website</a></p> 
+                            <p><a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Mozilla Firefox Browser</a></p>
+                            <p><a href="https://brave.com/" target="_blank">Brave Browser</a></p>
+                            <p><a href="https://www.google.com/chrome/" target="_blank">Chrome Browser</a></p>
+                        </Des>
                     </DesContainer>
                 </MintContainer>
             </MainContainer>
