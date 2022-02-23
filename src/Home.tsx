@@ -542,8 +542,6 @@ const Home = (props: HomeProps) => {
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>What is Solana?</GoldTitle></LogoAligner>
                             <p>For more information on how to buy Solana cryptocurrency</p>
                             <p>and setting up your Phantom wallet, visit <a href="www.solmemes.com" target="_blank">Solmemes.com</a></p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
                         </Des>
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Suggested wallet/browser combinations</GoldTitle></LogoAligner>
